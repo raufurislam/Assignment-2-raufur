@@ -52,7 +52,7 @@ body {
 .btn-3 {
   width: 250px;
   height: 50px;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(255, 255, 255, 0);
   color: white;
   border: 1px solid white;
   border-radius: 50px;
@@ -100,7 +100,7 @@ body {
 .banner-text-content {
   max-width: 50%;
   /* border: 2px solid red; */
-  margin-top: 6rem;
+  margin-top: 8rem;
   margin-left: 80px;
 }
 
