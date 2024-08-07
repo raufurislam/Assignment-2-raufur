@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: miama-font;
+  src: url(/miama.ttf);
+}
+/* Shared style start */
+* {
+  margin: 0;
+}
+body {
+  background-color: #000000;
+  color: white;
+}
+.container {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+.container-1 {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+.theme-color-1 {
+  color: rgb(230, 83, 60);
+}
+.theme-color-2 {
+  color: rgba(255, 255, 255, 0.5);
+}
+.btn-1 {
+  background-color: rgb(230, 83, 60);
+  padding: 12px 20px;
+  border-radius: 50px;
+}
+.btn-2 {
+  background-color: rgb(230, 83, 60);
+  padding: 12px 20px;
+  border-radius: 50px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  font-weight: 600;
+  width: 250px;
+  height: 50px;
+}
+.btn-3 {
+  width: 250px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.display-flex {
+  display: flex;
+}
+/* Shared style end */
+
+/* Hero section starts */
+.hero {
+  background-image: linear-gradient(
+    180deg,
+    rgba(17, 17, 17, 1),
+    rgba(119, 119, 119, 0.329),
+    rgba(17, 17, 17, 0.349)
+  );
+
+  /* background-color: aqua; */
+  height: 715px;
+  width: 100%;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+}
+.navbar {
+  padding-top: 3rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-name {
+  font-size: 36px;
+  font-weight: 800;
+}
+.nav-item a {
+  text-decoration: none;
+  margin-left: 48px;
+  color: rgb(255, 255, 255);
+}
+.banner {
+  justify-content: space-between;
+  gap: 1rem;
+}
+.banner-text-content {
+  max-width: 50%;
+  /* border: 2px solid red; */
+  margin-top: 6rem;
+  margin-left: 80px;
+}
+
+.banner-image-content {
+  max-width: 50%;
+  /* border: 2px solid blue; */
+  margin-top: 2rem;
+  position: relative;
+  width: 100%;
+  margin-left: 9rem;
+}
+.banner-image-content img {
+  position: relative;
+}
+.banner-text-content h1 {
+  font-size: 78px;
+  font-weight: 900;
+  line-height: 10%;
+}
+#miama-font {
+  font-family: miama-font;
+  font-size: 150px;
+  line-height: 120%;
+  font-weight: 400;
+}
+.banner-text-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  margin-top: 28px;
+}
+.btn-container {
+  margin-top: 28px;
+  gap: 20px;
+}
+.text-block-1 {
+  width: 170px;
+  height: 68px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  justify-content: center;
+  padding: 30px;
+  margin-top: -500px;
+  margin-left: 220px;
+}
+.text-block-1 h2 {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 40px;
+  letter-spacing: 1px;
+}
+.text-block-1 p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+.text-block-2 {
+  width: 170px;
+  height: 64px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  align-items: center;
+  padding: 30px;
+  margin-top: 150px;
+  margin-left: -120px;
+  gap: 20px;
+}
+.text-block-2 h2 {
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 0.3px;
+}
+.text-block-2 p {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  margin-top: 8px;
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  background: rgb(230, 83, 60);
+  border-radius: 50%;
+}
