@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: miama-font;
-  src: url(/miama.ttf);
+  src: url(./miama.ttf);
 }
 /* Shared style start */
 * {
