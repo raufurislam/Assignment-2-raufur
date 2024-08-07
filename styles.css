@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: miama-font;
-  src: url(./miama.ttf);
+  src: url(miama.ttf);
 }
 /* Shared style start */
 * {
@@ -120,7 +120,7 @@ body {
   font-weight: 900;
   line-height: 10%;
 }
-#miama-font {
+.miama-font {
   font-family: miama-font;
   font-size: 150px;
   line-height: 120%;
