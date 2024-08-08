@@ -59,6 +59,17 @@ body {
   font-size: 18px;
   font-weight: 600;
 }
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  color: rgba(255, 255, 255, 0.5);
+}
 .display-flex {
   display: flex;
 }
@@ -192,3 +203,39 @@ body {
   background: rgb(230, 83, 60);
   border-radius: 50%;
 }
+/* change-habits starts */
+.change-habits-text-content {
+  text-align: center;
+  margin-top: 120px;
+}
+.habit-img-container {
+  justify-content: space-between;
+  gap: 40px;
+}
+.habit-img-box {
+  width: 235px;
+  /* border: 2px solid red; */
+  text-align: center;
+  margin-top: 58px;
+  gap: 40px;
+}
+.habit-img-content {
+  height: 180px;
+  width: 180px;
+  /* border: 2px solid red; */
+  /* background-color: aqua; */
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+.habit-img-content img {
+  border-radius: 50%;
+}
+.habit-img-box p {
+  line-height: 18px;
+  margin-top: 0.5rem;
+}
+.habit-img-content h3 {
+}
+/* change-habits starts */
