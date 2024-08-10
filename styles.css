@@ -207,6 +207,9 @@ p {
   background: rgb(230, 83, 60);
   border-radius: 50%;
 }
+.play {
+  display: none;
+}
 /* change-habits starts */
 .change-habits-text-content {
   text-align: center;
@@ -247,21 +250,34 @@ p {
 .extra-mile-container {
   max-width: 960px;
   padding: 50px;
-  border: 2px solid rgb(0, 255, 106);
   text-align: left;
   border-radius: 18px;
   background: rgb(34, 34, 34);
   margin-top: 120px;
+  gap: 150px;
 }
 .extra-mile-text-content {
   width: 50%;
-  border: 2px solid blue;
+  margin-top: 10px;
+}
+.extra-mile-text-content h1 {
+  margin-bottom: 15px;
+}
+.extra-mile-text-content p {
+  margin-bottom: 35px;
 }
 .extra-mile-img {
   width: 366px;
   height: 312px;
-  border: 2px solid red;
   width: 50%;
+  overflow: hidden;
+  border-radius: 18px;
+}
+.extra-mile-img img {
+  width: 100%;
+  scale: 3.25;
+  margin-left: -180px;
+  margin-top: 115px;
 }
 /* Run an Extra Mile Easily ends */
 
@@ -274,8 +290,13 @@ p {
     margin-top: 52px;
     /* border: 2px solid red; */
   }
+  h1 {
+    font-size: 32px;
+    font-weight: 900;
+  }
   .banner,
-  .habit-img-container {
+  .habit-img-container,
+  .extra-mile-container {
     flex-direction: column;
   }
   .nav-item {
@@ -317,9 +338,8 @@ p {
   .text-block-1 {
     width: 120px;
     height: auto;
-    margin-top: -550px;
-    margin-left: 200px;
-    /* border: 2px solid red; */
+    margin-top: -490px;
+    margin-left: 175px;
     padding: 15px;
   }
   .text-block-1 h2 {
@@ -343,8 +363,18 @@ p {
     font-size: 12.1px;
     font-weight: 400;
   }
+  .play {
+    display: block;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .btn-2 {
+    padding: 10px 15px;
+  }
+  /* Change your habit responsive  */
+
   .change-habits-container {
-    margin-top: 400px;
+    margin-top: 370px;
   }
   .habit-img-container {
     margin-top: 40px;
@@ -352,5 +382,34 @@ p {
   .habit-img-box {
     margin-top: 10px;
     margin: 0 auto;
+  }
+  /* Run an Extra Mile Easily responsive starts */
+  .extra-mile-container {
+    padding: 0px;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .extra-mile-text-content {
+    width: 83%;
+    margin: 35px;
+  }
+  .extra-mile-text-content .btn-2 {
+    width: 95%;
+  }
+  .extra-mile-img {
+    margin: 0 auto;
+    width: 366px;
+    height: 212px;
+    width: 85%;
+    border-radius: 18px;
+    margin-top: -150px;
+  }
+  .extra-mile-img img {
+    width: 100%;
+    scale: 1.5;
+    margin-left: 0px;
+    margin-top: 20px;
+    object-fit: contain;
   }
 }
