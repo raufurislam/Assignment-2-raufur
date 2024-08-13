@@ -293,6 +293,9 @@ p {
   margin-top: 120px;
   margin-bottom: 120px;
 }
+.taining-container p {
+  margin-top: 15px;
+}
 .taining-container img {
   width: 100%;
   height: 200px;
@@ -430,7 +433,10 @@ p {
 .bmi-calculator-container {
   background-color: rgb(34, 34, 34);
   width: 100%;
-  height: 400px;
+  padding: 0 0 50px 0;
+}
+.bmi-calculator-chart h2 {
+  margin-bottom: 20px;
 }
 table {
   border-collapse: collapse;
@@ -462,6 +468,12 @@ th {
 .calculator-your-bmi {
   width: 60%;
   margin-top: 50px;
+}
+.calculator-your-bmi h2 {
+  margin-bottom: 10px;
+}
+.calculator-your-bmi p {
+  margin-bottom: 20px;
 }
 .input-row-1 {
   justify-content: space-between;
@@ -517,7 +529,8 @@ th {
   text-align: center;
 }
 .meet-team-image-container {
-  max-width: 1020px;
+  /* max-width: 1020px; */
+  width: 100%;
   padding: 20px;
   background-color: rgb(34, 34, 34);
   border-radius: 18px;
@@ -618,9 +631,16 @@ th {
     font-size: 32px;
     font-weight: 900;
   }
+  h2 {
+    font-size: 18px;
+    font-weight: 900;
+  }
+
   .banner,
   .habit-img-container,
-  .extra-mile-container {
+  .extra-mile-container,
+  .bmi-calculator-content,
+  .footer-container {
     flex-direction: column;
   }
   .nav-item {
@@ -738,6 +758,10 @@ th {
     margin-top: 20px;
     object-fit: contain;
   }
+  /* Trining starts */
+  .taining-container {
+    margin-top: 60px;
+  }
   .taining-container img {
     height: 128px;
   }
@@ -767,5 +791,42 @@ th {
     top: 30px;
     left: 10px;
   }
-  /* Trining starts */
+  /* Trining end*/
+  /* BMI starts */
+  .bmi-calculator-chart {
+    width: 100%;
+  }
+  .calculator-your-bmi {
+    width: 100%;
+  }
+  /* BMI end */
+
+  .team-row-1,
+  .team-row-2 {
+    grid-template-columns: 1fr;
+    overflow: hidden;
+    width: 100%;
+  }
+  .meet-team-image-container {
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .meet-team-image-container img {
+    width: 100%;
+  }
+  /* footer  */
+  .footer {
+    margin-top: 50px;
+  }
+  .footer-container {
+    gap: 0;
+  }
+  .footer-1,
+  .footer-2,
+  .footer-3 {
+    width: 100%;
+    margin-top: 30px;
+  }
 }
