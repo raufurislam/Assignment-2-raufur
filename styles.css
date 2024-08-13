@@ -63,6 +63,14 @@ h1 {
   font-size: 48px;
   font-weight: 900;
 }
+h2 {
+  font-size: 28px;
+  font-weight: 900;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 900;
+}
 p {
   font-size: 14px;
   font-weight: 400;
@@ -280,7 +288,268 @@ p {
   margin-top: 115px;
 }
 /* Run an Extra Mile Easily ends */
+/* Training styles starts */
+.taining-container {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.taining-container img {
+  width: 100%;
+  height: 200px;
+}
+.row-1 {
+  display: grid;
+  grid-template-columns: 0.45fr 1fr 0.55fr;
+  margin-bottom: 0;
+  margin-top: 40px;
+}
+.row-2 {
+  display: grid;
+  grid-template-columns: 0.8fr 0.7fr 0.6fr;
+}
+.exercise-card-1,
+.exercise-card-2,
+.exercise-card-3,
+.exercise-card-4,
+.exercise-card-5,
+.exercise-card-6 {
+  position: relative;
+  margin-bottom: -5px;
+}
+.exercise-card-1 .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 97.7%;
+  background-color: rgba(6, 255, 210, 0.5);
+  z-index: 1;
+}
+.exercise-card-1 .exercise {
+  position: absolute;
+  top: 150px;
+  left: 20px;
+  color: white;
+  font-size: 14px;
+  z-index: 2;
+}
+.exercise-card-2 .exercise {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  font-size: 14px;
+  z-index: 2;
+}
+.exercise-card-3 .exercise {
+  position: absolute;
+  top: 130px;
+  left: 20px;
+  color: white;
+  font-size: 14px;
+  z-index: 2;
+}
+.exercise-card-4 .exercise {
+  position: absolute;
+  top: 20px;
+  left: 170px;
+  color: white;
+  font-size: 14px;
+  z-index: 2;
+}
+.exercise-card-5 .exercise {
+  position: absolute;
+  top: 130px;
+  left: 20px;
+  color: white;
+  font-size: 14px;
+  z-index: 2;
+}
+.exercise-card-6 .exercise {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  font-size: 14px;
+  z-index: 2;
+}
+.exercise-card-2 .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 97.7%;
+  background-color: rgba(255, 0, 0, 0.3);
+  z-index: 1;
+}
+.exercise-card-3 .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 97.7%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.exercise-card-4 .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 97.7%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.exercise-card-5 .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 97.7%;
+  background-color: rgba(66, 255, 0, 0.3);
+  z-index: 1;
+}
+.exercise-card-6 .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 97.7%;
+  background-color: rgba(0, 71, 255, 0.3);
+  z-index: 1;
+}
+/* Training styles ends */
+/* BMI Calculator style starts */
+.bmi-calculator {
+  /* border: 2px solid red; */
+}
+.bmi-calculator-text {
+  margin: 0 auto;
+  text-align: center;
+}
+.bmi-calculator-container {
+  background-color: rgb(34, 34, 34);
+  width: 100%;
+  height: 400px;
+}
+table {
+  border-collapse: collapse;
+}
+td,
+th {
+  border: 0.5px solid #ffffff80;
+  color: #ffffff80;
+  padding: 12px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+}
+th {
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+.bmi-calculator-container {
+  margin-top: 50px;
+}
+.bmi-calculator-chart {
+  width: 40%;
+  margin-top: 50px;
+}
+.calculator-your-bmi {
+  width: 60%;
+  margin-top: 50px;
+}
+.input-row-1 {
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.input-row-2 {
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.input-row-3 {
+  margin-bottom: 25px;
+}
+.input-row-1 input {
+  margin-bottom: 0px;
+  width: 39.5%;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #ffffff80;
+  padding: 12px 40px 12px 20px;
+}
+.input-row-2 input {
+  margin-bottom: 0px;
+  width: 39.5%;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #ffffff80;
+  padding: 12px 40px 12px 20px;
+}
+.input-row-2 select {
+  margin-bottom: 0px;
+  width: 48.8%;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #ffffff44;
+  padding: 12px 40px 12px 20px;
+}
+.input-row-3 select {
+  margin-bottom: 0px;
+  width: 100%;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #ffffff44;
+  padding: 12px 40px 12px 20px;
+}
+/* BMI Calculator style end */
+/* Meet team style starts */
+.meet-team {
+  margin-top: 100px;
+  text-align: center;
+}
+.meet-team-image-container {
+  padding: 20px;
+  background-color: rgb(34, 34, 34);
+  border-radius: 18px;
+  margin-bottom: 120px;
+  margin-top: 50px;
+  text-align: left;
+}
+.meet-team-image-container img {
+  height: 280px;
+  width: 100%;
+  border-radius: 16px;
+}
+.team-row-1,
+.team-row-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.team-row-2 {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.team-card {
+  position: relative;
+}
+.team-card .team {
+  position: absolute;
+  top: 220px;
+  left: 20px;
+}
+/* Meet team style ends */
 
+/* RESPONSIVE FOR SMALL DEVICE */
 @media screen and (max-width: 576px) {
   .container {
     max-width: 85%;
@@ -387,6 +656,7 @@ p {
   .extra-mile-container {
     padding: 0px;
     width: 85%;
+    height: 100%;
     margin: 0 auto;
     margin-top: 50px;
   }
@@ -404,6 +674,7 @@ p {
     width: 85%;
     border-radius: 18px;
     margin-top: -150px;
+    margin-bottom: 30px;
   }
   .extra-mile-img img {
     width: 100%;
