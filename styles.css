@@ -738,4 +738,34 @@ th {
     margin-top: 20px;
     object-fit: contain;
   }
+  .taining-container img {
+    height: 128px;
+  }
+  .row-1 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .row-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .exercise-card-3,
+  .exercise-card-6 {
+    display: none;
+  }
+  .exercise-card-1 .exercise {
+    top: 60px;
+    left: 10px;
+  }
+  .exercise-card-2 .exercise {
+    top: 30px;
+    left: 10px;
+  }
+  .exercise-card-4 .exercise {
+    top: 30px;
+    left: 10px;
+  }
+  .exercise-card-5 .exercise {
+    top: 30px;
+    left: 10px;
+  }
+  /* Trining starts */
 }
