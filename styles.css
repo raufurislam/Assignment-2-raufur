@@ -524,7 +524,7 @@ th {
   color: white;
 }
 .bmi-calculator-container {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .bmi-calculator-chart {
   width: 40%;
@@ -747,8 +747,8 @@ th {
   .text-block-1 {
     width: 120px;
     height: auto;
-    margin-top: -490px;
-    margin-left: 175px;
+    margin-top: -500px;
+    margin-left: 190px;
     padding: 15px;
   }
   .text-block-1 h2 {
@@ -779,6 +779,7 @@ th {
   }
   .btn-2 {
     padding: 10px 15px;
+    font-size: 17px;
   }
   /* Change your habit responsive  */
 
@@ -884,13 +885,13 @@ th {
     width: 100%;
   }
   .input-row-1 input {
-    width: 31.5%;
+    max-width: 110px;
   }
   .input-row-2 input {
-    width: 31.5%;
+    max-width: 110px;
   }
   .input-row-2 select {
-    width: 48.1%;
+    max-width: 172px;
   }
   /* footer  */
   .footer {
