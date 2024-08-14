@@ -161,8 +161,8 @@ p {
   gap: 14px;
 }
 .text-block-1 {
-  width: 170px;
-  height: 68px;
+  width: 160px;
+  height: 62px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   backdrop-filter: blur(20px);
@@ -305,7 +305,7 @@ p {
 }
 .row-2 {
   display: grid;
-  grid-template-columns: 0.8fr 0.7fr 0.6fr;
+  grid-template-columns: 0.7fr 0.59fr 0.6fr;
 }
 .exercise-card-1,
 .exercise-card-2,
