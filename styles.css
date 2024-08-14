@@ -599,7 +599,7 @@ th {
   background-color: rgb(34, 34, 34);
   border-radius: 18px;
   margin-bottom: 120px;
-  margin-top: 50px;
+  margin-top: 40px;
   text-align: left;
 }
 .meet-team-image-container img {
@@ -842,19 +842,19 @@ th {
     display: none;
   }
   .exercise-card-1 .exercise {
-    top: 60px;
+    top: 40px;
     left: 10px;
   }
   .exercise-card-2 .exercise {
-    top: 30px;
+    top: 12px;
     left: 10px;
   }
   .exercise-card-4 .exercise {
-    top: 30px;
+    top: 12px;
     left: 10px;
   }
   .exercise-card-5 .exercise {
-    top: 30px;
+    top: 12px;
     left: 10px;
   }
   /* Trining end*/
