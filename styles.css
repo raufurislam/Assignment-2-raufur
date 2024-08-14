@@ -229,7 +229,6 @@ p {
 }
 .habit-img-box {
   width: 235px;
-  /* border: 2px solid red; */
   text-align: center;
   margin-top: 58px;
   gap: 40px;
@@ -237,8 +236,6 @@ p {
 .habit-img-content {
   height: 180px;
   width: 180px;
-  /* border: 2px solid red; */
-  /* background-color: aqua; */
   border-radius: 50%;
   text-align: center;
   margin: 0 auto;
@@ -597,7 +594,6 @@ th {
   text-align: center;
 }
 .meet-team-image-container {
-  /* max-width: 1020px; */
   width: 100%;
   padding: 20px;
   background-color: rgb(34, 34, 34);
@@ -708,7 +704,8 @@ th {
   .habit-img-container,
   .extra-mile-container,
   .bmi-calculator-content,
-  .footer-container {
+  .footer-container,
+  .join-choose-card-container {
     flex-direction: column;
   }
   .nav-item {
@@ -860,6 +857,8 @@ th {
     left: 10px;
   }
   /* Trining end*/
+  /* Join Today starts */
+  /* Join Today ends */
   /* BMI starts */
   .bmi-calculator-chart {
     width: 100%;
@@ -883,6 +882,15 @@ th {
   }
   .meet-team-image-container img {
     width: 100%;
+  }
+  .input-row-1 input {
+    width: 31.5%;
+  }
+  .input-row-2 input {
+    width: 31.5%;
+  }
+  .input-row-2 select {
+    width: 48.1%;
   }
   /* footer  */
   .footer {
